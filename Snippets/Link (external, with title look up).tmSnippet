@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>#!/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby
+	<string>#!/usr/bin/env ruby
 require "#{ENV['TM_SUPPORT_PATH']}/lib/progress.rb"
 require 'open-uri'
 link = "http://site.com"
